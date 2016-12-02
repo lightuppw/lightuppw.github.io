@@ -1,1 +1,1 @@
-$(function(){if(window.innerWidth>=1200){var n=new WOW({boxClass:"wow",animateClass:"animated",offset:0,mobile:!0,live:!0,callback:function(n){},scrollContainer:null});n.init()}});
+$(function(){if(window.innerWidth>=1200){var n=new WOW({boxClass:"wow",animateClass:"animated",offset:100,mobile:!0,live:!0,callback:function(n){},scrollContainer:null});n.init()}});
