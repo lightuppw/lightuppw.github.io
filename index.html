@@ -137,7 +137,7 @@
 
         <div class="site-header__menu" id="main-menu">
             <ul class="site-header__menu-ul">
-                <li><a href="#">Об Институте</a></li>
+                <li><a href="#mission">Об Институте</a></li>
                 <li><a href="#" class="course-info__caller">Расписание курсов</a></li>
                 <li><a href="#">Портфолио</a></li>
                 <li><a href="#">Контакты</a></li>
@@ -170,7 +170,7 @@
     </div>
 </div>
 	
-<div class="mission__wrapper">
+<div class="mission__wrapper" id="mission">
     <div class="mission">
         <div class="mission__photo-wrapper">
             <img class="mission__photo-img wow fadeIn" src="img/mission/photo.jpg" alt="">
@@ -319,7 +319,79 @@
 
 	<div class="course-info__wrapper" id="course-info__wrapper">
     <div class="course-info">
-        <div class="course-info__table">
+
+        <div class="course-info__nav">
+            <div class="course-info__nav-item course-info__nav-item-active" data-course="1">Курс Brow Master</div>
+            <div class="course-info__nav-item" data-course="2">Татуаж</div>
+            <div class="course-info__nav-item" data-course="3">Diamond Brows</div>
+            <div class="course-info__nav-item" data-course="4">Колористка</div>
+            <div class="course-info__nav-item" data-course="5">Повышение квалификации</div>
+            <div class="course-info__nav-item" data-course="6">Губы</div>
+        </div>
+
+
+        <div class="course-info__info" id="course-info">
+            <div class="course-info__calendar col-md-7" id="calendar"></div>
+            <div class="course-info__plan-wrapper col-md-5">
+
+                <div class="course-info__plan">
+                    <div class="course-info__plan-h1">
+                        Дневное расписание:
+                    </div>
+                    <div id="course-info__plan-list" class="course-info__plan-list">
+                        <div class="course-info__plan-item">
+                            <div class="course-info__plan-item-time">10:30</div>
+                            <div class="course-info__plan-item-title">Регистрация</div>
+                        </div>
+                        <div class="course-info__plan-item">
+                            <div class="course-info__plan-item-time">11:00</div>
+                            <div class="course-info__plan-item-title">Начало</div>
+                        </div>
+                        <div class="course-info__plan-item">
+                            <div class="course-info__plan-item-time">12:30</div>
+                            <div class="course-info__plan-item-title">Кофе брейк</div>
+                        </div>
+                        <div class="course-info__plan-item">
+                            <div class="course-info__plan-item-time">12:45</div>
+                            <div class="course-info__plan-item-title">Обучение</div>
+                        </div>
+                        <div class="course-info__plan-item">
+                            <div class="course-info__plan-item-time">14:00</div>
+                            <div class="course-info__plan-item-title">Обед</div>
+                        </div>
+                        <div class="course-info__plan-item">
+                            <div class="course-info__plan-item-time">15:00</div>
+                            <div class="course-info__plan-item-title">Обучение</div>
+                        </div>
+                        <div class="course-info__plan-item">
+                            <div class="course-info__plan-item-time">16:30</div>
+                            <div class="course-info__plan-item-title">Кофе брейк</div>
+                        </div>
+                        <div class="course-info__plan-item">
+                            <div class="course-info__plan-item-time">16:45</div>
+                            <div class="course-info__plan-item-title">Обучение</div>
+                        </div>
+                        <div class="course-info__plan-item">
+                            <div class="course-info__plan-item-time">18:00</div>
+                            <div class="course-info__plan-item-title">Кофе брейк</div>
+                        </div>
+                        <div class="course-info__plan-item">
+                            <div class="course-info__plan-item-time">18:15</div>
+                            <div class="course-info__plan-item-title">Обучение</div>
+                        </div>
+                        <div class="course-info__plan-item">
+                            <div class="course-info__plan-item-time">19:30</div>
+                            <div class="course-info__plan-item-title">Окончание</div>
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+
+            </div>
+            <div class="clear"></div>
+        </div>
+
+        <div class="course-info__table hidden-xs hidden-sm">
 
             <div class="course-info__table-heading">
                 <div class="course-info__table-heading-0">
@@ -360,16 +432,16 @@
                     <div class="course-info__table-col-0">
                         Форма обучения
                     </div>
-                    <div class="course-info__table-col-1">
+                    <div class="course-info__table-col-1 course-info__internally-1">
                         Очная
                     </div>
-                    <div class="course-info__table-col-2">
+                    <div class="course-info__table-col-2 course-info__internally-2">
                         Очная
                     </div>
-                    <div class="course-info__table-col-3">
+                    <div class="course-info__table-col-3 course-info__internally-3">
                         Очная
                     </div>
-                    <div class="course-info__table-col-4">
+                    <div class="course-info__table-col-4 course-info__internally-4">
                         Очная
                     </div>
                 </div><!-- .course-info__table-row КОНЕЦ -->
@@ -378,16 +450,16 @@
                     <div class="course-info__table-col-0">
                         Число студентов в группе
                     </div>
-                    <div class="course-info__table-col-1">
+                    <div class="course-info__table-col-1 course-info__countStudents-1">
                         5
                     </div>
-                    <div class="course-info__table-col-2">
+                    <div class="course-info__table-col-2 course-info__countStudents-2">
                         5
                     </div>
-                    <div class="course-info__table-col-3">
+                    <div class="course-info__table-col-3 course-info__countStudents-3">
                         5
                     </div>
-                    <div class="course-info__table-col-4">
+                    <div class="course-info__table-col-4 course-info__countStudents-4">
                         5
                     </div>
                 </div><!-- .course-info__table-row КОНЕЦ -->
@@ -396,16 +468,16 @@
                     <div class="course-info__table-col-0">
                         Срок обучения(дни)
                     </div>
-                    <div class="course-info__table-col-1">
+                    <div class="course-info__table-col-1 course-info__days-1">
                         1
                     </div>
-                    <div class="course-info__table-col-2">
+                    <div class="course-info__table-col-2 course-info__days-2">
                         1
                     </div>
-                    <div class="course-info__table-col-3">
+                    <div class="course-info__table-col-3 course-info__days-3">
                         1
                     </div>
-                    <div class="course-info__table-col-4">
+                    <div class="course-info__table-col-4 course-info__days-4">
                         3
                     </div>
                 </div><!-- .course-info__table-row КОНЕЦ -->
@@ -414,16 +486,16 @@
                     <div class="course-info__table-col-0">
                         Академические часы
                     </div>
-                    <div class="course-info__table-col-1">
+                    <div class="course-info__table-col-1 course-info__hours-1">
                         8
                     </div>
-                    <div class="course-info__table-col-2">
+                    <div class="course-info__table-col-2 course-info__hours-2">
                         8
                     </div>
-                    <div class="course-info__table-col-3">
+                    <div class="course-info__table-col-3 course-info__hours-3">
                         8
                     </div>
-                    <div class="course-info__table-col-4">
+                    <div class="course-info__table-col-4 course-info__hours-4">
                         24
                     </div>
                 </div><!-- .course-info__table-row КОНЕЦ -->
@@ -432,16 +504,16 @@
                     <div class="course-info__table-col-0">
                         Число моделей
                     </div>
-                    <div class="course-info__table-col-1">
+                    <div class="course-info__table-col-1 course-info__models-1">
                         3
                     </div>
-                    <div class="course-info__table-col-2">
+                    <div class="course-info__table-col-2 course-info__models-2">
                         2
                     </div>
-                    <div class="course-info__table-col-3">
+                    <div class="course-info__table-col-3 course-info__models-3">
                         2
                     </div>
-                    <div class="course-info__table-col-4">
+                    <div class="course-info__table-col-4 course-info__models-4">
                         7
                     </div>
                 </div><!-- .course-info__table-row КОНЕЦ -->
@@ -450,38 +522,22 @@
                     <div class="course-info__table-col-0">
                         Стоимость обучения
                     </div>
-                    <div class="course-info__table-col-1">
+                    <div class="course-info__table-col-1 course-info__price-1">
                         7000
                     </div>
-                    <div class="course-info__table-col-2">
+                    <div class="course-info__table-col-2 course-info__price-2">
                         7000
                     </div>
-                    <div class="course-info__table-col-3">
+                    <div class="course-info__table-col-3 course-info__price-3">
                         7000
                     </div>
-                    <div class="course-info__table-col-4">
+                    <div class="course-info__table-col-4 course-info__price-4">
                         18000
                     </div>
                 </div><!-- .course-info__table-row КОНЕЦ -->
 
             </div> <!-- .course-info__table-body КОНЕЦ -->
         </div><!-- .course-info__table КОНЕЦ -->
-
-
-        <div class="course-info__nav">
-            <div class="course-info__nav-item course-info__nav-item-active" data-course="1">Курс Brow Master</div>
-            <div class="course-info__nav-item" data-course="2">Татуаж</div>
-            <div class="course-info__nav-item" data-course="3">Diamond Brows</div>
-            <div class="course-info__nav-item" data-course="4">Колористка</div>
-            <div class="course-info__nav-item" data-course="5">Повышение квалификации</div>
-            <div class="course-info__nav-item" data-course="6">Губы</div>
-        </div>
-
-
-        <div class="course-info__info" id="course-info">
-            <div class="course-info__calendar col-md-8" id="calendar"></div>
-            <div class="clear"></div>
-        </div>
 
     </div>
 </div>
