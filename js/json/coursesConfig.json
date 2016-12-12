@@ -1,0 +1,300 @@
+[
+  {
+    "id": 1,
+    "title": "Курс Brow Master",
+    "title_html": "Курс <span class='extrabold'>Brow Master</span>",
+    "levels": [
+      {
+        "title": "1 уровень сложности",
+        "subtitle": "Архитектура, коррекция, триддинг, макияж",
+        "subtitle_html": "Архитектура <br> Коррекция <br> Триддинг <br> Макияж",
+        "internally": "Очная",
+        "countStudents": 5,
+        "days": 1,
+        "hours": 8,
+        "models": 3,
+        "price": 7000,
+        "day_plan": [
+          {
+            "time": "10:30",
+            "title": "Регистрация"
+          },
+          {
+            "time": "11:00",
+            "title": "Начало"
+          },
+          {
+            "time": "12:30",
+            "title": "Кофе брейк"
+          },
+          {
+            "time": "12:45",
+            "title": "Обучение"
+          },
+          {
+            "time": "14:00",
+            "title": "Обед"
+          },
+          {
+            "time": "15:00",
+            "title": "Обучение"
+          },
+          {
+            "time": "16:30",
+            "title": "Кофе брейк"
+          },
+          {
+            "time": "16:45",
+            "title": "Обучение"
+          },
+          {
+            "time": "18:00",
+            "title": "Кофе брейк"
+          },
+          {
+            "time": "18:15",
+            "title": "Обучение"
+          },
+          {
+            "time": "19:30",
+            "title": "Окончание"
+          }
+        ]
+      },
+
+      {
+        "title": "2 уровень сложности",
+        "subtitle": "Архитектура, коррекция, триддинг, макияж",
+        "subtitle_html": "Окрашивание <br> стойкими <br> красителями",
+        "internally": "Очная",
+        "countStudents": 5,
+        "days": 1,
+        "hours": 8,
+        "models": 2,
+        "price": 7000
+      },
+
+      {
+        "title": "3 уровень сложности",
+        "subtitle": "Архитектура, коррекция, триддинг, макияж",
+        "subtitle_html": "Наращивание и <br> Маникюр бровей",
+        "internally": "Очная",
+        "countStudents": 5,
+        "days": 1,
+        "hours": 8,
+        "models": 2,
+        "price": 7000
+      },
+
+      {
+        "title": "Brow Top Master",
+        "subtitle": "Архитектура, коррекция, триддинг, макияж",
+        "subtitle_html": "Включает <br> все три уровня",
+        "internally": "Очная",
+        "countStudents": 5,
+        "days": 3,
+        "hours": 24,
+        "models": 7,
+        "price": 18000
+      }
+
+    ]
+  },
+
+  {
+    "id": 2,
+    "title": "Татуаж",
+    "title_html": "<span class='extrabold'>Татуаж</span>",
+    "levels": [
+      {
+        "title": "Татуаж ур. 1",
+        "subtitle": "Архитектура, коррекция, триддинг, макияж",
+        "subtitle_html": "Татуаж <br> описание уровня 1",
+        "internally": "Очная",
+        "countStudents": 5,
+        "days": 1,
+        "hours": 8,
+        "models": 3,
+        "price": 8000
+      },
+
+      {
+        "title": "Татуаж ур. 2",
+        "subtitle": "Архитектура, коррекция, триддинг, макияж",
+        "subtitle_html": "Татуаж <br> описание уровня 2",
+        "internally": "Очная",
+        "countStudents": 3,
+        "days": 1,
+        "hours": 7,
+        "models": 3,
+        "price": 8000
+      },
+
+      {
+        "title": "Татуаж ур. 3",
+        "subtitle": "Архитектура, коррекция, триддинг, макияж",
+        "subtitle_html": "Татуаж <br> описание уровня 3",
+        "internally": "Очная",
+        "countStudents": 5,
+        "days": 1,
+        "hours": 8,
+        "models": 1,
+        "price": 8000
+      }
+
+    ]
+  },
+
+
+  {
+    "id": 3,
+    "title": "Diamond Brows",
+    "title_html": "<span class='extrabold'>Diamond</span> Brows",
+    "levels": [
+      {
+        "title": "1 уровень сложности",
+        "subtitle": "Архитектура, коррекция, триддинг, макияж",
+        "subtitle_html": "Diamond Brows <br> описание <br> первого уровня",
+        "internally": "Очная",
+        "countStudents": 5,
+        "days": 1,
+        "hours": 8,
+        "models": 3,
+        "price": 7000
+      },
+
+      {
+        "title": "2 уровень сложности",
+        "subtitle": "Архитектура, коррекция, триддинг, макияж",
+        "subtitle_html": "Diamond Brows <br> описание <br> второго уровня",
+        "internally": "Очная",
+        "countStudents": 5,
+        "days": 1,
+        "hours": 8,
+        "models": 2,
+        "price": 7000
+      }
+
+    ]
+  },
+
+  {
+    "id": 4,
+    "title": "Колористика",
+    "title_html": "<span class='extrabold'>Колористика</span>",
+    "levels": [
+      {
+        "title": "1 уровень сложности",
+        "subtitle": "Архитектура, коррекция, триддинг, макияж",
+        "subtitle_html": "Колористика <br> описание первого уровня",
+        "internally": "Очная",
+        "countStudents": 5,
+        "days": 1,
+        "hours": 8,
+        "models": 3,
+        "price": 7000
+      },
+
+      {
+        "title": "2 уровень сложности",
+        "subtitle": "Архитектура, коррекция, триддинг, макияж",
+        "subtitle_html": "Колористика <br> описание второго уровня",
+        "internally": "Очная",
+        "countStudents": 5,
+        "days": 1,
+        "hours": 8,
+        "models": 2,
+        "price": 7000
+      },
+
+      {
+        "title": "3 уровень сложности",
+        "subtitle": "Архитектура, коррекция, триддинг, макияж",
+        "subtitle_html": "Колористика <br> описание третьего уровня",
+        "internally": "Очная",
+        "countStudents": 5,
+        "days": 1,
+        "hours": 8,
+        "models": 2,
+        "price": 7000
+      }
+
+    ]
+  },
+
+  {
+    "id": 5,
+    "title": "Повышение квалификации",
+    "title_html": "<span style='position: relative; top: -15px;' class='extrabold'>Повышение квалификации</span>",
+    "levels": [
+      {
+        "title": "1 уровень сложности",
+        "subtitle": "Архитектура, коррекция, триддинг, макияж",
+        "subtitle_html": "Повышение <br> квалификации <br> описание",
+        "internally": "Очная",
+        "countStudents": 5,
+        "days": 1,
+        "hours": 8,
+        "models": 3,
+        "price": 7000
+      },
+
+      {
+        "title": "2 уровень сложности",
+        "subtitle": "Архитектура, коррекция, триддинг, макияж",
+        "subtitle_html": "Повышение <br> квалификации <br> описание",
+        "internally": "Очная",
+        "countStudents": 5,
+        "days": 1,
+        "hours": 8,
+        "models": 2,
+        "price": 7000
+      },
+
+      {
+        "title": "3 уровень сложности",
+        "subtitle": "Архитектура, коррекция, триддинг, макияж",
+        "subtitle_html": "Lorem ipsum",
+        "internally": "Очная",
+        "countStudents": 5,
+        "days": 1,
+        "hours": 8,
+        "models": 2,
+        "price": 7000
+      }
+
+    ]
+  },
+
+  {
+    "id": 6,
+    "title": "Губы",
+    "title_html": "<span class='extrabold'>Губы</span>",
+    "levels": [
+      {
+        "title": "1 уровень сложности",
+        "subtitle": "Архитектура, коррекция, триддинг, макияж",
+        "subtitle_html": "Lorem ipsum",
+        "internally": "Очная",
+        "countStudents": 5,
+        "days": 1,
+        "hours": 8,
+        "models": 3,
+        "price": 7000
+      },
+
+      {
+        "title": "2 уровень сложности",
+        "subtitle": "Архитектура, коррекция, триддинг, макияж",
+        "subtitle_html": "Lorem ipsum",
+        "internally": "Очная",
+        "countStudents": 5,
+        "days": 1,
+        "hours": 8,
+        "models": 2,
+        "price": 7000
+      }
+    ]
+  }
+
+]
