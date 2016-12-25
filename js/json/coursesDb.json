@@ -1,0 +1,53 @@
+{
+
+
+  "categories" : [
+    { "id" : 1, "title" : "Брови" },
+    { "id" : 2, "title" : "Другие курсы"}
+  ],
+
+
+  "courses" : [
+
+    {
+      "id" : 1,
+      "title" : "BROW MASTER © 1 step",
+      "category" : 1
+    },
+
+    {
+      "id" : 2,
+      "title" : "BROW MASTER © 2 step",
+      "category" : 1
+    },
+
+    {
+      "id" : 3,
+      "title" : "MICROBLADING BROWS DREAM ©",
+      "category" : 1
+    },
+
+    {
+      "id" : 4,
+      "title" : "LUXURY POWDER BROWS ©",
+      "category" : 1
+    },
+
+    {
+      "id" : 5,
+      "title" : "PERFECT DREAM BROWS ©",
+      "category" : 1
+    },
+
+    {
+      "id" : 6,
+      "title" : "MANICURE BROWS & LASHES + BOTOX ©",
+      "category" : 2
+    }
+
+  ]
+
+
+
+
+}

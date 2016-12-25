@@ -1,13 +1,13 @@
 [
   {
     "id": 1,
-    "title": "Курс Brow Master",
-    "title_html": "Курс <span class='extrabold'>Brow Master</span>",
+    "title": "Курс Брови",
+    "title_html": "Курсы категории <span class='extrabold'>Брови</span>",
     "levels": [
       {
-        "title": "1 уровень сложности",
-        "subtitle": "Архитектура, коррекция, триддинг, макияж",
-        "subtitle_html": "Архитектура <br> Коррекция <br> Триддинг <br> Макияж",
+        "title": "BROW MASTER © 1 step",
+        "subtitle": "Архитектура, коррекция бровей. (Обязателен для новичков)",
+        "subtitle_html": "Архитектура, <br> коррекция бровей <br> <small>(Обязателен для новичков)</small>",
         "internally": "Очная",
         "countStudents": 5,
         "days": 1,
@@ -63,9 +63,9 @@
       },
 
       {
-        "title": "2 уровень сложности",
-        "subtitle": "Архитектура, коррекция, триддинг, макияж",
-        "subtitle_html": "Окрашивание <br> стойкими <br> красителями",
+        "title": "BROW MASTER © 2 step",
+        "subtitle": "Окрашивание бровей стойкими красителями",
+        "subtitle_html": "Окрашивание бровей <br> стойкими красителями",
         "internally": "Очная",
         "countStudents": 5,
         "days": 1,
@@ -75,9 +75,9 @@
       },
 
       {
-        "title": "3 уровень сложности",
-        "subtitle": "Архитектура, коррекция, триддинг, макияж",
-        "subtitle_html": "Наращивание и <br> Маникюр бровей",
+        "title": "MICROBLADING BROWS DREAM ©",
+        "subtitle": "Микроблейдинг бровей создание тонких волосков",
+        "subtitle_html": "Микроблейдинг бровей <br> создание тонких волосков",
         "internally": "Очная",
         "countStudents": 5,
         "days": 1,
@@ -87,9 +87,21 @@
       },
 
       {
-        "title": "Brow Top Master",
-        "subtitle": "Архитектура, коррекция, триддинг, макияж",
-        "subtitle_html": "Включает <br> все три уровня",
+        "title": "LUXURY POWDER BROWS ©",
+        "subtitle": "Шотирования бровей в технике градиент",
+        "subtitle_html": "Шотирование <br> бровей <br> в технике градиент",
+        "internally": "Очная",
+        "countStudents": 5,
+        "days": 3,
+        "hours": 24,
+        "models": 7,
+        "price": 18000
+      },
+
+      {
+        "title": "PERFECT DREAM BROWS ©",
+        "subtitle": "Тень и волосок. Сочетание всех техник ручного татуажа",
+        "subtitle_html": "Тень и волосок <br> <small>Сочетание всех техник ручного татуажа</small>",
         "internally": "Очная",
         "countStudents": 5,
         "days": 3,
